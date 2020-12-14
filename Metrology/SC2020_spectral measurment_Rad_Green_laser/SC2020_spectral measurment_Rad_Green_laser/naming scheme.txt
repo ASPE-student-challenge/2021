@@ -1,0 +1,13 @@
+laser red or green
+
+50 um hole size
+
+50x LWD: objective NA=0.5
+
+2400 grating
+
+441.57 nm: longpass filter
+
+0.1s: acq time
+
+40: average
