@@ -2235,14 +2235,13 @@ AddOutputFilter chunkFilter
 				<Property Name="crio.ModuleContainerType" Type="Str">crio.RSIModuleContainer</Property>
 			</Item>
 		</Item>
-		<Item Name="subVI_boolean_to_voltage.vi" Type="VI" URL="../subVI_boolean_to_voltage.vi"/>
-		<Item Name="subVI_voltage_to_binary.vi" Type="VI" URL="../subVI_voltage_to_binary.vi"/>
-		<Item Name="RT_stage_control.vi" Type="VI" URL="../RT_stage_control.vi"/>
-		<Item Name="RT_stage_control_sine_following_Rev3.vi" Type="VI" URL="../RT_stage_control_sine_following_Rev3.vi"/>
-		<Item Name="RT_stage_control_step_response_rev2.vi" Type="VI" URL="../RT_stage_control_step_response_rev2.vi"/>
-		<Item Name="subVI_PID.vi" Type="VI" URL="../subVI_PID.vi"/>
+		<Item Name="RT_stage_control_rev2.vi" Type="VI" URL="../RT_stage_control_rev2.vi"/>
 		<Item Name="StageControl.ctl" Type="VI" URL="../StageControl.ctl"/>
-		<Item Name="RT_stage_control_sine_following_Rev2.vi" Type="VI" URL="../RT_stage_control_sine_following_Rev2.vi"/>
+		<Item Name="RasterControl.ctl" Type="VI" URL="../RasterControl.ctl"/>
+		<Item Name="subVI_XPID.vi" Type="VI" URL="../subVI_XPID.vi"/>
+		<Item Name="subVI_YPID.vi" Type="VI" URL="../subVI_YPID.vi"/>
+		<Item Name="subVI_voltage_to_binary.vi" Type="VI" URL="../subVI_voltage_to_binary.vi"/>
+		<Item Name="subVI_boolean_to_voltage.vi" Type="VI" URL="../subVI_boolean_to_voltage.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
