@@ -1,0 +1,648 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L encoder-signal-conditioner_rev6-rescue:R-Device-encoder-signal-conditioner_rev4-rescue R3
+U 1 1 5FEC8103
+P 4000 3650
+F 0 "R3" H 4070 3696 50  0001 L CNN
+F 1 "Rload" H 4070 3650 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3930 3650 50  0001 C CNN
+F 3 "~" H 4000 3650 50  0001 C CNN
+	1    4000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L encoder-signal-conditioner_rev6-rescue:R-Device-encoder-signal-conditioner_rev4-rescue R2
+U 1 1 5FED50E5
+P 4000 3250
+F 0 "R2" H 4070 3296 50  0001 L CNN
+F 1 "Rload" H 4070 3250 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3930 3250 50  0001 C CNN
+F 3 "~" H 4000 3250 50  0001 C CNN
+	1    4000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L encoder-signal-conditioner_rev6-rescue:R-Device-encoder-signal-conditioner_rev4-rescue RLED1
+U 1 1 5FED5B64
+P 2200 2400
+F 0 "RLED1" H 2270 2400 50  0001 L CNN
+F 1 "RLED" V 2270 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2130 2400 50  0001 C CNN
+F 3 "~" H 2200 2400 50  0001 C CNN
+	1    2200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L encoder-signal-conditioner_rev6-rescue:R-Device-encoder-signal-conditioner_rev4-rescue R5
+U 1 1 5FED89F4
+P 4000 4950
+F 0 "R5" H 4070 4996 50  0001 L CNN
+F 1 "Rload" H 4070 4950 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3930 4950 50  0001 C CNN
+F 3 "~" H 4000 4950 50  0001 C CNN
+	1    4000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L encoder-signal-conditioner_rev6-rescue:R-Device-encoder-signal-conditioner_rev4-rescue R4
+U 1 1 5FED9D33
+P 4000 4550
+F 0 "R4" H 4070 4596 50  0001 L CNN
+F 1 "Rload" H 4070 4550 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3930 4550 50  0001 C CNN
+F 3 "~" H 4000 4550 50  0001 C CNN
+	1    4000 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L encoder-signal-conditioner_rev6-rescue:R-Device-encoder-signal-conditioner_rev4-rescue R6
+U 1 1 5FEDA166
+P 4000 5350
+F 0 "R6" H 4070 5396 50  0001 L CNN
+F 1 "Rload" H 4070 5350 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3930 5350 50  0001 C CNN
+F 3 "~" H 4000 5350 50  0001 C CNN
+	1    4000 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2700 3700 3000
+Wire Wire Line
+	3800 3100 3800 3000
+Wire Wire Line
+	3800 3000 4000 3000
+Wire Wire Line
+	3900 3200 3900 3100
+Wire Wire Line
+	3900 3100 4000 3100
+Wire Wire Line
+	4000 3400 3900 3400
+Wire Wire Line
+	3900 3400 3900 3300
+Wire Wire Line
+	3800 3400 3800 3500
+Wire Wire Line
+	3800 3500 4000 3500
+Wire Wire Line
+	3700 3500 3700 3800
+Wire Wire Line
+	3700 3800 4000 3800
+Wire Wire Line
+	4000 4400 3700 4400
+Wire Wire Line
+	3700 4400 3700 4700
+Wire Wire Line
+	3800 4800 3800 4700
+Wire Wire Line
+	3800 4700 4000 4700
+Wire Wire Line
+	4000 4800 3900 4800
+Wire Wire Line
+	3900 4800 3900 4900
+Wire Wire Line
+	3900 5000 3900 5100
+Wire Wire Line
+	3900 5100 4000 5100
+Wire Wire Line
+	4000 5200 3800 5200
+Wire Wire Line
+	3800 5200 3800 5100
+Wire Wire Line
+	3700 5200 3700 5500
+Wire Wire Line
+	3700 5500 4000 5500
+Text Label 3750 2600 0    50   ~ 0
+5V
+Text Label 3650 5700 0    50   ~ 0
+DGND
+Text Label 3550 2450 0    50   ~ 0
+DGND
+Connection ~ 4000 3500
+Connection ~ 4000 3100
+Text Label 4150 3100 0    50   ~ 0
+A2
+Text Label 3550 1550 0    50   ~ 0
+DAC3_WRITE
+Text Label 3550 1650 0    50   ~ 0
+DAC2_WRITE
+Text Label 3550 1750 0    50   ~ 0
+DAC1_WRITE
+Text Label 3550 1850 0    50   ~ 0
+DAC_CLK
+Text Label 3550 1950 0    50   ~ 0
+CS
+Text Label 3550 2050 0    50   ~ 0
+ADC_CLK
+Text Label 3550 2150 0    50   ~ 0
+ADC_WRITE
+Text Label 3550 2250 0    50   ~ 0
+ADC_READ
+Text Label 4150 2700 0    50   ~ 0
+A1
+Text Label 4150 3500 0    50   ~ 0
+A0
+Connection ~ 4000 4800
+Text Label 4300 4400 0    50   ~ 0
+B1
+Text Label 4300 5200 0    50   ~ 0
+B0
+Wire Wire Line
+	2400 3200 2900 3200
+Wire Wire Line
+	2900 2600 7000 2600
+Wire Wire Line
+	5200 2450 5200 4350
+Wire Wire Line
+	2800 4450 2800 4500
+Connection ~ 2800 4500
+Wire Wire Line
+	2800 4500 2800 5700
+Wire Wire Line
+	2300 4500 2800 4500
+Wire Wire Line
+	2800 3450 3450 3450
+Wire Wire Line
+	3450 3450 3450 4700
+Wire Wire Line
+	3450 4700 3700 4700
+Wire Wire Line
+	2900 3550 3400 3550
+Wire Wire Line
+	3400 3550 3400 4800
+Wire Wire Line
+	3400 4800 3800 4800
+Wire Wire Line
+	2800 3650 3350 3650
+Wire Wire Line
+	3350 3650 3350 4900
+Wire Wire Line
+	3350 4900 3900 4900
+Wire Wire Line
+	2900 3750 3300 3750
+Wire Wire Line
+	3300 3750 3300 5000
+Wire Wire Line
+	3300 5000 3900 5000
+Wire Wire Line
+	2800 3850 3250 3850
+Wire Wire Line
+	3250 3850 3250 5100
+Wire Wire Line
+	3250 5100 3800 5100
+Wire Wire Line
+	2900 3950 3200 3950
+Wire Wire Line
+	3200 3950 3200 5200
+Wire Wire Line
+	3200 5200 3700 5200
+Wire Wire Line
+	2300 3500 3000 3500
+Wire Wire Line
+	3000 3500 3000 3000
+Wire Wire Line
+	3000 3000 3700 3000
+Wire Wire Line
+	2400 3600 3050 3600
+Wire Wire Line
+	3050 3600 3050 3100
+Wire Wire Line
+	3050 3100 3800 3100
+Wire Wire Line
+	2300 3700 3100 3700
+Wire Wire Line
+	3100 3700 3100 3200
+Wire Wire Line
+	3100 3200 3900 3200
+Wire Wire Line
+	2400 3800 3150 3800
+Wire Wire Line
+	3150 3800 3150 3300
+Wire Wire Line
+	3150 3300 3900 3300
+Wire Wire Line
+	2300 3900 3200 3900
+Wire Wire Line
+	3200 3900 3200 3400
+Wire Wire Line
+	3200 3400 3800 3400
+Wire Wire Line
+	2400 4000 3500 4000
+Wire Wire Line
+	3500 4000 3500 3500
+Wire Wire Line
+	3500 3500 3700 3500
+NoConn ~ 2300 3300
+NoConn ~ 2800 3250
+NoConn ~ 2900 3350
+NoConn ~ 2400 3400
+NoConn ~ 2300 4100
+NoConn ~ 2400 4200
+NoConn ~ 2300 4300
+NoConn ~ 2400 4400
+NoConn ~ 2400 4600
+NoConn ~ 2900 4550
+NoConn ~ 2900 4350
+NoConn ~ 2900 4150
+NoConn ~ 2800 4250
+NoConn ~ 2800 4050
+$Comp
+L local_library:DB15_Female_Stacked U1
+U 1 1 6005DF89
+P 1650 3550
+F 0 "U1" H 2600 4150 50  0001 C CNN
+F 1 "DB15_Female_Stacked" H 3219 3225 50  0000 L CNN
+F 2 "encoder signal conditioner_@:DSUB-15_STACKED_Female_Horizontal" H 2600 4150 50  0001 C CNN
+F 3 "" H 2600 4150 50  0001 C CNN
+	1    1650 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2600 2900 3150
+Wire Wire Line
+	2900 3150 2900 3200
+Connection ~ 2900 3150
+Wire Wire Line
+	6400 2250 6400 3700
+Wire Wire Line
+	3450 2250 6400 2250
+Wire Wire Line
+	6300 2150 6300 3700
+Wire Wire Line
+	3450 2150 6300 2150
+Wire Wire Line
+	6200 2050 6200 3700
+Wire Wire Line
+	3450 2050 6200 2050
+Wire Wire Line
+	6100 3700 6100 1950
+Wire Wire Line
+	3450 1950 6100 1950
+Wire Wire Line
+	6000 1850 6000 3700
+Wire Wire Line
+	3450 1850 6000 1850
+Wire Wire Line
+	5900 1750 5900 3700
+Wire Wire Line
+	3450 1750 5900 1750
+Wire Wire Line
+	5800 1650 5800 3700
+Wire Wire Line
+	3450 1650 5800 1650
+Wire Wire Line
+	5700 1550 5700 3700
+Wire Wire Line
+	3450 1550 5700 1550
+Wire Wire Line
+	4000 3500 5300 3500
+Wire Wire Line
+	4000 4800 5800 4800
+Wire Wire Line
+	5600 4350 5200 4350
+$Comp
+L encoder-signal-conditioner_rev6-rescue:RJ45_LED_Shielded-Connector-encoder-signal-conditioner_rev5-rescue J1
+U 1 1 5FE8FCD5
+P 3050 1950
+F 0 "J1" H 3050 2617 50  0000 C CNN
+F 1 "RJ45_LED_Shielded" H 3050 2526 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_BEL_SS74301-00x_Vertical" V 3050 1975 50  0001 C CNN
+F 3 "~" V 3050 1975 50  0001 C CNN
+	1    3050 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2700 4000 2700
+Connection ~ 2900 2600
+$Comp
+L encoder-signal-conditioner_rev6-rescue:R-Device-encoder-signal-conditioner_rev4-rescue R1
+U 1 1 5FEB061B
+P 4000 2850
+F 0 "R1" H 4070 2896 50  0001 L CNN
+F 1 "Rload" H 4070 2850 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3930 2850 50  0001 C CNN
+F 3 "~" H 4000 2850 50  0001 C CNN
+	1    4000 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 2700
+Connection ~ 5600 4350
+Wire Wire Line
+	5600 4350 5600 5700
+Connection ~ 4000 5200
+Connection ~ 4000 4400
+Wire Wire Line
+	4000 4400 5500 4400
+Text Label 4300 4800 0    50   ~ 0
+B2
+Wire Wire Line
+	2800 5700 5600 5700
+Wire Wire Line
+	2650 2150 2350 2150
+Wire Wire Line
+	2350 2150 2350 2450
+Wire Wire Line
+	2350 2450 3050 2450
+Connection ~ 3050 2450
+Wire Wire Line
+	3050 2450 5200 2450
+Wire Wire Line
+	2200 2250 2650 2250
+Wire Wire Line
+	2200 2550 2200 2600
+Wire Wire Line
+	2200 2600 2900 2600
+Wire Wire Line
+	5500 4200 5500 4400
+Wire Wire Line
+	5800 4200 5800 4800
+Wire Wire Line
+	6000 5200 6000 4200
+Wire Wire Line
+	4000 5200 6000 5200
+Wire Wire Line
+	5300 3500 5300 4250
+Wire Wire Line
+	5300 4250 6200 4250
+Wire Wire Line
+	6200 4250 6200 4200
+Wire Wire Line
+	5600 3100 5600 3700
+Wire Wire Line
+	4000 3100 5600 3100
+Wire Wire Line
+	5500 3700 5500 2700
+Wire Wire Line
+	4000 2700 5500 2700
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 60ADA4CA
+P 8150 3350
+F 0 "J2" H 8230 3342 50  0000 L CNN
+F 1 "Conn_01x06" H 8230 3251 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 8150 3350 50  0001 C CNN
+F 3 "~" H 8150 3350 50  0001 C CNN
+	1    8150 3350
+	1    0    0    -1  
+$EndComp
+Text Label 7650 3150 0    50   ~ 0
+5V
+Text Label 7650 3250 0    50   ~ 0
+DGND
+Text Label 7650 3350 0    50   ~ 0
+AI0
+Text Label 7650 3450 0    50   ~ 0
+AI1
+Text Label 7650 3550 0    50   ~ 0
+AI2
+Text Label 7650 3650 0    50   ~ 0
+AI3
+$Comp
+L Device:R R10
+U 1 1 60B3E595
+P 6900 3100
+F 0 "R10" H 6970 3146 50  0001 L CNN
+F 1 "10k" H 6970 3055 50  0001 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6830 3100 50  0001 C CNN
+F 3 "~" H 6900 3100 50  0001 C CNN
+	1    6900 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2600 7000 2900
+Connection ~ 7000 2900
+Wire Wire Line
+	7000 2900 7000 3150
+$Comp
+L Device:R R9
+U 1 1 60B667C5
+P 6800 3100
+F 0 "R9" H 6870 3146 50  0001 L CNN
+F 1 "10k" H 6870 3055 50  0001 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6730 3100 50  0001 C CNN
+F 3 "~" H 6800 3100 50  0001 C CNN
+	1    6800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 60B66F36
+P 6700 3100
+F 0 "R8" H 6770 3146 50  0001 L CNN
+F 1 "10k" H 6770 3055 50  0001 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6630 3100 50  0001 C CNN
+F 3 "~" H 6700 3100 50  0001 C CNN
+	1    6700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 60B671D9
+P 6600 3100
+F 0 "R7" H 6670 3146 50  0001 L CNN
+F 1 "10k" H 6670 3055 50  0001 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6530 3100 50  0001 C CNN
+F 3 "~" H 6600 3100 50  0001 C CNN
+	1    6600 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2900 6900 2900
+Wire Wire Line
+	6600 2950 6600 2900
+Wire Wire Line
+	6700 2950 6700 2900
+Connection ~ 6700 2900
+Wire Wire Line
+	6700 2900 6600 2900
+Wire Wire Line
+	6800 2950 6800 2900
+Connection ~ 6800 2900
+Wire Wire Line
+	6800 2900 6700 2900
+Wire Wire Line
+	6900 2950 6900 2900
+Connection ~ 6900 2900
+Wire Wire Line
+	6900 2900 6800 2900
+Wire Wire Line
+	6800 3250 6800 3450
+Wire Wire Line
+	6700 3250 6700 3550
+Wire Wire Line
+	6600 3250 6600 3650
+Wire Wire Line
+	7950 3650 6600 3650
+Connection ~ 6600 3650
+Wire Wire Line
+	6600 3650 6600 3700
+Wire Wire Line
+	7950 3550 6700 3550
+Connection ~ 6700 3550
+Wire Wire Line
+	6700 3550 6700 3700
+Wire Wire Line
+	7950 3450 6800 3450
+Connection ~ 6800 3450
+Wire Wire Line
+	6800 3450 6800 3700
+Wire Wire Line
+	7950 3350 6900 3350
+Wire Wire Line
+	6900 3250 6900 3350
+Connection ~ 6900 3350
+Wire Wire Line
+	6900 3350 6900 3700
+Wire Wire Line
+	7950 3150 7450 3150
+Connection ~ 7000 3150
+Wire Wire Line
+	7000 3150 7000 3700
+$Comp
+L Connector:Screw_Terminal_01x04 J4
+U 1 1 60BE1B95
+P 8150 4000
+F 0 "J4" H 8230 3992 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 8230 3901 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal" H 8150 4000 50  0001 C CNN
+F 3 "~" H 8150 4000 50  0001 C CNN
+	1    8150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J5
+U 1 1 60BE3B53
+P 8150 4500
+F 0 "J5" H 8230 4492 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 8230 4401 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal" H 8150 4500 50  0001 C CNN
+F 3 "~" H 8150 4500 50  0001 C CNN
+	1    8150 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3150 7450 3900
+Wire Wire Line
+	7450 3900 7950 3900
+Connection ~ 7450 3150
+Wire Wire Line
+	7450 3150 7000 3150
+Text Label 7650 3900 0    50   ~ 0
+5V
+Wire Wire Line
+	5400 3700 5400 3600
+Wire Wire Line
+	5400 3600 5100 3600
+Wire Wire Line
+	5100 3600 5100 4450
+Text Label 7650 4000 0    50   ~ 0
+3.3V
+Text Label 7650 4100 0    50   ~ 0
+AGND
+Wire Wire Line
+	5100 4450 7250 4450
+Wire Wire Line
+	6800 4200 6800 4500
+Text Label 7650 4200 0    50   ~ 0
+DGND
+Wire Wire Line
+	7150 3250 7150 4350
+Wire Wire Line
+	7150 3250 7950 3250
+Wire Wire Line
+	7250 4000 7250 4450
+Wire Wire Line
+	7300 4100 7300 4500
+Wire Wire Line
+	7300 4500 6800 4500
+Wire Wire Line
+	7300 4100 7950 4100
+Wire Wire Line
+	7350 4200 7350 4550
+Wire Wire Line
+	7350 4200 7950 4200
+Wire Wire Line
+	7250 4000 7950 4000
+Wire Wire Line
+	6500 3700 6500 3600
+Text Label 7650 4400 0    50   ~ 0
+DIO0
+Wire Wire Line
+	7600 3600 7600 4400
+Wire Wire Line
+	7600 4400 7950 4400
+Wire Wire Line
+	6500 3600 7600 3600
+Wire Wire Line
+	5400 4200 5400 4600
+Wire Wire Line
+	5400 4600 7400 4600
+Wire Wire Line
+	7400 4600 7400 4500
+Wire Wire Line
+	7400 4500 7950 4500
+Text Label 7650 4500 0    50   ~ 0
+DIO15
+Wire Wire Line
+	7000 4200 7000 4650
+Wire Wire Line
+	7000 4650 7450 4650
+Wire Wire Line
+	7450 4650 7450 4600
+Wire Wire Line
+	7450 4600 7950 4600
+Wire Wire Line
+	6900 4200 6900 4700
+Wire Wire Line
+	6900 4700 7950 4700
+Text Label 7650 4600 0    50   ~ 0
+AO0
+Text Label 7650 4700 0    50   ~ 0
+AO1
+NoConn ~ 6400 4200
+NoConn ~ 6600 4200
+NoConn ~ 2650 1550
+NoConn ~ 2650 1650
+NoConn ~ 7450 -1000
+$Comp
+L encoder-signal-conditioner_rev6-rescue:Conn_02x17_Odd_Even-Connector_Generic-encoder-signal-conditioner_rev4-rescue J3
+U 1 1 5FEC927F
+P 6200 3900
+F 0 "J3" H 6250 4917 50  0001 C CNN
+F 1 "Conn_02x17_Odd_Even" H 6250 4826 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x17_P2.54mm_Latch_Vertical" H 6200 3900 50  0001 C CNN
+F 3 "~" H 6200 3900 50  0001 C CNN
+	1    6200 3900
+	0    1    1    0   
+$EndComp
+NoConn ~ 5600 4200
+NoConn ~ 5700 4200
+NoConn ~ 5900 4200
+NoConn ~ 6700 4200
+NoConn ~ 6500 4200
+Wire Wire Line
+	6300 4550 7350 4550
+Wire Wire Line
+	6300 4200 6300 4350
+Connection ~ 6300 4350
+Wire Wire Line
+	6300 4350 7150 4350
+Wire Wire Line
+	6300 4350 6300 4550
+Wire Wire Line
+	5600 4350 6300 4350
+NoConn ~ 6100 4200
+$EndSCHEMATC
